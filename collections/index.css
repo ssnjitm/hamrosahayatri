@@ -1,0 +1,87 @@
+
+/* General Styles */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+/* Header Styles */
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #f8f8f8;
+padding: 10px 20px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+height: 100px;
+width: 100px;
+border-radius: 50%; /* Makes the image circular */
+}
+
+.login button {
+padding: 10px 20px;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+height: 50px;
+width: 100px;
+}
+
+.login button:hover {
+background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Main Content Styles */
+main {
+padding: 20px;
+}
+
+#search {
+margin-top: 20px;
+display: flex;
+align-items: center; /* Centers items vertically */
+}
+
+#search input[type="text"] {
+flex: 1; /* Take remaining space */
+padding: 15px;
+max-width: 400px;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 4px;
+height: 50px;
+margin-right: 10px; /* Space between input and button */
+}
+
+#searchButton {
+padding: 15px 20px;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+height: 50px;
+width: 150px;
+}
+
+#searchButton:hover {
+background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer Styles */
+footer {
+background-color: #f8f8f8;
+text-align: center;
+padding: 20px;
+position: fixed;
+bottom: 0;
+width: 100%;
+box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
